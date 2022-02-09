@@ -8,13 +8,9 @@ const whichSchool  = function (age) {
         console.log("Lighthouse Labs")
     }
 
-    for (i = 19; i < 100; i++) {
-        expect(whichSchool(i)).to.be.equal("Lighthouse Labs");
-        console.log(i)
-      }
 
-//   console.log("I am 18. Which school should I go to?");
-// console.log(whichSchool(18));
+console.log("I am 18. Which school should I go to?");
+console.log(whichSchool(18));
 // console.log("I am 8. Which school should I go to?");
 // console.log(whichSchool(8));
 // console.log("I am 19. Which school should I go to?");
